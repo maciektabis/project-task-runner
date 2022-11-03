@@ -167,9 +167,9 @@ h1 {
   color: #fed136;
   border-radius: 50%;
   border: 3px solid #fed136;
-  padding-top: 15px;
-  padding-left: 12px;
-  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 .text {
@@ -221,6 +221,7 @@ h5 {
 .card img {
   height: 300px;
   padding-bottom: 7px;
+  object-fit: cover;
 }
 .portfolio {
   background-color: #dfe4ea;
@@ -254,6 +255,7 @@ section footer {
   letter-spacing: normal;
   line-height: 22px;
 }
+
 @media (min-width: 576px) {
   .page-subtitle {
     font-size: 72px;
