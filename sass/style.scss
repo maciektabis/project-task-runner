@@ -1,0 +1,261 @@
+/* Variables */
+$font-header: "Montserrat", sans-serif;
+$font-text: "Roboto Slab", serif;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 13px;
+  color: black;
+}
+
+.container {
+  max-width: 1140px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  justify-content: center;
+  margin: auto;
+}
+
+.section {
+  padding-bottom: 96px;
+}
+
+.navbar-wrap {
+  background-image: url("https://i.postimg.cc/KcJV9NLL/2017-08-24-07-23-50-1000x658.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+/* Navigation */
+
+.navigation {
+  padding: 42px 10px 42px 10px;
+}
+h4 {
+  color: #fed136;
+  height: 28px;
+  font-family: "Shalimar", cursive;
+  font-weight: 700;
+  font-size: 66px;
+}
+
+.navigation ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 32px;
+}
+
+.navigation li {
+  margin-left: 36px;
+}
+
+.navigation li li {
+  width: 50px;
+  margin: 0;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: white;
+  font-family: Montserrat;
+  height: 10px;
+  font-weight: 400;
+}
+
+.navigation ul ul {
+  margin-left: 36px;
+}
+
+/* header */
+.splash-inner {
+  margin: auto;
+  max-width: 70%;
+  text-align: center;
+  margin-top: 170px;
+}
+
+.page-title {
+  margin: 0;
+  font-size: 40px;
+  word-spacing: 7px;
+  font-weight: 300;
+  line-height: 1.2;
+  text-align: center;
+  color: white;
+  font-style: italic;
+  font-family: "Roboto Slab", serif;
+}
+
+.page-subtitle {
+  margin: 24px 0;
+  font-weight: 400;
+  font-size: 75px;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  color: white;
+}
+
+.btn {
+  display: block;
+  align-items: center;
+  min-width: 160px;
+  margin: 24px auto 0 auto;
+  padding: 16px;
+  max-width: 240px;
+  font-family: Montserrat;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-width: 2px;
+  border-style: solid;
+  background-position: 100% 0;
+  background-size: 300%;
+}
+
+.btn:hover {
+  background-position: 0 100%;
+}
+
+.btn-btn {
+  background-color: #f1c40f;
+  font-weight: bold;
+  color: white;
+}
+
+section {
+  background-color: white;
+}
+
+.services {
+  text-align: center;
+  color: black;
+  margin-top: 50px;
+  padding: 0;
+  display: inline;
+}
+
+h1 {
+  font-weight: bold;
+  font-family: Montserrat;
+}
+
+.p-services {
+  font-size: 20px;
+  font-style: italic;
+  color: #747d8c;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.box {
+  color: black;
+}
+
+.box i {
+  font-size: 30px;
+  background: #f1f2f6;
+  height: 68px;
+  width: 67px;
+  color: #fed136;
+  border-radius: 50%;
+  border: 3px solid #fed136;
+  padding-top: 15px;
+  padding-left: 12px;
+  text-decoration: none;
+}
+
+.text {
+  font-size: large;
+  padding: auto;
+  color: #747d8c;
+  font-style: italic;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+}
+h3 {
+  height: 18px;
+  color: #222222;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+}
+
+section h1 {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  padding: 15px;
+  letter-spacing: -1px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+h5 {
+  color: #333333;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+}
+.card-text {
+  text-align: center;
+  padding-bottom: 20px;
+  font-family: "Roboto Slab", serif;
+  font-size: 14px;
+  color: #737373;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.card img {
+  height: 300px;
+  padding-bottom: 7px;
+}
+.portfolio {
+  background-color: #dfe4ea;
+  padding-bottom: 10px;
+}
+
+section footer {
+  margin: 30px;
+  background-color: white;
+}
+
+.footer i {
+  font-size: 30px;
+  border-radius: 50%;
+  background-color: #222222;
+  color: white;
+  width: 51px;
+  height: 50px;
+  line-height: 50px;
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+}
+.footer p {
+  height: 14px;
+  color: #555555;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 22px;
+}
+@media (min-width: 576px) {
+  .page-subtitle {
+    font-size: 72px;
+  }
+}
